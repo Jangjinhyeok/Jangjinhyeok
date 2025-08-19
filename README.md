@@ -14,24 +14,39 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white) ![Blueprint](https://img.shields.io/badge/Blueprint-2E72C0?style=for-the-badge&logo=unrealengine&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
-## 🚀 Projects Summary
+## 🚀 Unreal Projects Summary
 ✅ 각 프로젝트의 상세 내용은 **Pinned** 저장소 또는 경력 기술서에서 확인하실 수 있습니다.
 
-### 01 [이세계 휴식일지 (ProjectISG-Client)](https://github.com/Jangjinhyeok/ProjectISG-Client)
+### [이세계 휴식일지 (ProjectISG-Client)](https://github.com/Jangjinhyeok/ProjectISG-Client)
 - AI 개발팀과 협업하여 제작한 멀티플레이 힐링 게임입니다. (최종 프로젝트 우수상 수상)
 - GAS 기반 농사 시스템, 시간 시스템, 수면 시스템 등 핵심 생활 콘텐츠를 개발하고 RPC 통신 문제를 해결했습니다.
 
-### 02 [Rider (ProjectR)](https://github.com/Jangjinhyeok/ProjectR)
-- 카트라이더를 모작한 멀티플레이 레이싱 게임입니다.
+### [Rider (ProjectR)](https://github.com/Jangjinhyeok/ProjectR)
+- 멀티플레이 캐주얼 레이싱 게임입니다.
 - RPC/Replication을 활용한 아이템의 멀티플레이 동기화와 데이터 테이블을 기반한 아이템 시스템을 담당했습니다.
 
-### 03 [Vertical (Project_V)](https://github.com/Jangjinhyeok/Project_V)
-- 호라이즌 포비든 웨스트를 모작하여, 거대 보스와의 전투를 구현한 3인칭 액션 게임입니다.
+### [Vertical (Project_V)](https://github.com/Jangjinhyeok/Project_V)
+- 거대 보스와의 전투를 구현한 3인칭 싱글 액션 게임입니다.
 - FSM과 AI Perception을 활용한 보스 AI 시스템 및 게임 플로우를 개발했습니다.
 
-### 04 [LostGPU (LostGPU)](https://github.com/Jangjinhyeok/LostGPU)
-- 로스트아크를 모작하여, 블루프린트와 머티리얼 시스템을 깊이 있게 활용한 쿼터뷰 액션 게임입니다.
+### [LostGPU (LostGPU)](https://github.com/Jangjinhyeok/LostGPU)
+- 블루프린트와 머티리얼 시스템을 깊이 있게 활용한 쿼터뷰 액션 게임입니다.
 - 보스 일리아칸과 레벨체인저를 담당했습니다.
+
+## 🚀 Unity Projects Summary
+
+### [Cursed Ruins](https://github.com/Jangjinhyeok/CursedRuins)
+- 유물 수집과 미니게임을 통해 폐허를 탈출하는 3D 쿼터뷰 공포 게임입니다.
+- NavMeshAgent를 이용한 귀신 AI와 랜덤 미니게임 생성 등 핵심 시스템을 개발했습니다.
+
+### [Last Mechanic](https://github.com/Jangjinhyeok/LastMechanic)
+- 인간과 메카 상태를 전환하며 싸우는 3인칭 액션 슈팅 게임입니다. (1인 개발)
+- 1인/3인칭 슈팅 시스템과 스킬 시스템, Behavior Tree 기반 보스 AI를 개발했습니다.
+
+### [Infinite Dungeon](https://github.com/Jangjinhyeok/InfiniteDungeon)
+- 자동 공격과 스킬 강화를 통해 생존하는 탑뷰 서바이벌 게임입니다.
+- 레벨업에 따른 난이도 시스템과 레벨업 시 랜덤 3개 옵션을 제공하는 시스템을 구현했습니다.
+
 
 ## 🏆 Algorithm
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dinner9936)](https://solved.ac/dinner9936)
