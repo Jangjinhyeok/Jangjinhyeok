@@ -1,5 +1,4 @@
 ## 👋 안녕하세요! 게임 클라이언트 개발자 장진혁입니다.
-
 > "게임은 **재미**로, 개발은 **집요함**으로 완성합니다."
 
 저는 플레이어가 **'한 판만 더!'** 를 외치게 만드는 몰입감 있는 경험을 설계하는 것을 목표로 삼고 있습니다.
@@ -67,3 +66,6 @@
 ## 📬 Contact
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zero9936@gmail.com)
 [![Portfolio PDF](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)]([https://drive.google.com/file/d/17JJFBNAEJHLfHY7qsOgjl_QebOcX6-wx/view?usp=sharing])
+
+![Visitor Count](https://komarev.com/ghpvc/?username=Jangjinhyeok&repo=Jangjinhyeok)
+
