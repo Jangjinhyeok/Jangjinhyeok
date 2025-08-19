@@ -14,6 +14,23 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white) ![Blueprint](https://img.shields.io/badge/Blueprint-2E72C0?style=for-the-badge&logo=unrealengine&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
+## 📊 GitHub Stats
+<p align="center">
+  <a href="https://github.com/Jangjinhyeok">
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=Jangjinhyeok&show_icons=true&theme=default&bg_color=ffffff&title_color=0f172a&text_color=0f172a&icon_color=0f172a&border_color=e5e7eb&include_all_commits=true&count_private=true"
+      alt="Jangjinhyeok's GitHub stats" height="170" />
+  </a>
+  <a href="https://github.com/Jangjinhyeok">
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jangjinhyeok&layout=compact&langs_count=8&card_width=320&theme=default&bg_color=ffffff&title_color=0f172a&text_color=0f172a&icon_color=0f172a&border_color=e5e7eb"
+      alt="Top Languages" height="170" />
+  </a>
+</p>
+
+## 🏆 Algorithm
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dinner9936)](https://solved.ac/dinner9936)
+
 ## 🚀 Unreal Projects Summary
 ✅ 각 프로젝트의 상세 내용은 **Pinned** 저장소 또는 경력 기술서에서 확인하실 수 있습니다.
 
@@ -46,10 +63,6 @@
 ### [Infinite Dungeon](https://github.com/Jangjinhyeok/InfiniteDungeon)
 - 자동 공격과 스킬 강화를 통해 생존하는 탑뷰 서바이벌 게임입니다.
 - 레벨업에 따른 난이도 시스템과 레벨업 시 랜덤 3개 옵션을 제공하는 시스템을 구현했습니다.
-
-
-## 🏆 Algorithm
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dinner9936)](https://solved.ac/dinner9936)
 
 ## 📬 Contact
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zero9936@gmail.com)
