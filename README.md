@@ -38,7 +38,7 @@
 ### [Last Mechanic](https://github.com/Jangjinhyeok/LastMechanic)
 - 인간과 메카 상태를 전환하며 싸우는 3인칭 액션 슈팅 게임입니다. (1인 개발)
 - 1인/3인칭 슈팅 시스템과 스킬 시스템, Behavior Tree 기반 보스 AI를 개발했습니다.
-- 
+
 ### [Cursed Ruins](https://github.com/Jangjinhyeok/CursedRuins)
 - 유물 수집과 미니게임을 통해 폐허를 탈출하는 3D 쿼터뷰 공포 게임입니다.
 - NavMeshAgent를 이용한 귀신 AI와 랜덤 미니게임 생성 등 핵심 시스템을 개발했습니다.
