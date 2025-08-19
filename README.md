@@ -14,7 +14,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
 ## 📊 GitHub Stats
-<p align="center">
+<p>
   <a href="https://github.com/Jangjinhyeok">
     <img
       src="https://github-readme-stats.vercel.app/api?username=Jangjinhyeok&show_icons=true&theme=default&bg_color=ffffff&title_color=0f172a&text_color=0f172a&icon_color=0f172a&border_color=e5e7eb&include_all_commits=true&count_private=true"
