@@ -11,10 +11,6 @@
 - 이전에는 Unity에서 17개 언어를 지원하는 미니게임 6종을 4개월 내 납품하며, UI·로직·데이터가 얽힌 레거시를 View-Presenter 구조로 재작성했습니다.
 - 엔진과 무관하게 **UI 계층 분리와 계측 기반 최적화**를 같은 방식으로 접근하고, 손으로 반복되는 등록 작업은 에디터 도구로 옮깁니다.
 
-## 🛠 Skills
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white) ![Blueprint](https://img.shields.io/badge/Blueprint-2E72C0?style=for-the-badge&logo=unrealengine&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-
 ## 💼 경력 사항
 
 ### 주식회사 셔블 · Unreal 클라이언트 개발자 (정직원) `2025.12 ~ 재직 중`
@@ -42,9 +38,6 @@
 
 `Unity 2021.3 LTS` `C#` `UniTask` `Addressables` `I2 Localization` `DOTween` `EditorWindow`
 
-## 🏆 Algorithm
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dinner9936)](https://solved.ac/dinner9936)
-
 ## 🚀 Unreal Projects Summary
 ✅ 각 프로젝트의 상세 내용은 **Pinned** 저장소 또는 경력 기술서에서 확인하실 수 있습니다.
 
@@ -69,6 +62,7 @@
 ### [Arcade Idle Prototype](https://github.com/Jangjinhyeok/Arcade-Idle-Prototype)
 - 채굴 → 가공 → 판매 → 업그레이드로 이어지는 코어 루프를 5일(유효 약 30시간) 안에 완성한 아케이드 아이들 하이퍼캐주얼 프로토타입입니다. (1인 개발)
 - 9개 시스템을 개별 구현하면 일정을 넘긴다고 판단해 재사용 축이 되는 추상화 3종(InteractionZone / StackContainer / GameSettingsSO)을 첫날 확정하고 그 위에서 조립했으며, NavMeshAgent 기반 FSM NPC 3종과 오브젝트 풀링을 개발했습니다.
+- **AI 코딩 도구(Claude Code)를 적극 활용해 개발한 프로젝트**입니다. 도구에 맡긴 영역과 사람이 판단한 지점을 [`docs/ai-usage.md`](https://github.com/Jangjinhyeok/Arcade-Idle-Prototype/blob/main/docs/ai-usage.md)에 정리했습니다.
 
 ### [Last Mechanic](https://github.com/Jangjinhyeok/LastMechanic)
 - 인간과 메카 상태를 전환하며 싸우는 3인칭 액션 슈팅 게임입니다. (1인 개발)
@@ -81,6 +75,10 @@
 ### [Infinite Dungeon](https://github.com/Jangjinhyeok/InfiniteDungeon)
 - 자동 공격과 스킬 강화를 통해 생존하는 탑뷰 서바이벌 게임입니다.
 - 레벨업에 따른 난이도 시스템과 레벨업 시 랜덤 3개 옵션을 제공하는 시스템을 구현했습니다.
+
+## 🛠 Skills
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white) ![Blueprint](https://img.shields.io/badge/Blueprint-2E72C0?style=for-the-badge&logo=unrealengine&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
 ## 📬 Contact
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zero9936@gmail.com)
