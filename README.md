@@ -42,11 +42,12 @@
 ✅ 각 프로젝트의 상세 내용은 **Pinned** 저장소 또는 경력 기술서에서 확인하실 수 있습니다.
 
 ### [이세계 휴식일지](https://github.com/Jangjinhyeok/ProjectISG-Client)
-- AI 개발팀과 협업하여 제작한 멀티플레이 힐링 게임입니다. (최종 프로젝트 우수상 수상)
+- **AI 개발팀과 협업**하여 제작한 **멀티플레이** 힐링 게임입니다. (최종 프로젝트 우수상 수상)
 - GAS 기반 농사 시스템, 시간 시스템, 수면 시스템 등 핵심 생활 콘텐츠를 개발하고 RPC 통신 문제를 해결했습니다.
+- 스팀 멀티플레이 세션 시스템을 만들었습니다.
 
 ### [Rider](https://github.com/Jangjinhyeok/ProjectR)
-- 멀티플레이 캐주얼 레이싱 게임입니다.
+- **멀티플레이** 캐주얼 레이싱 게임입니다.
 - RPC/Replication을 활용한 아이템의 멀티플레이 동기화와 데이터 테이블을 기반한 아이템 시스템을 담당했습니다.
 
 ### [Vertical](https://github.com/Jangjinhyeok/Project_V)
