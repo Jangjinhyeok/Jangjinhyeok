@@ -79,12 +79,12 @@ Unity 클라이언트 개발자로 커리어를 시작했습니다. 교육용 �
 
 ## 🚀 Unity Projects
 
-### [Arcade Idle Prototype](https://github.com/Jangjinhyeok/Arcade-Idle-Prototype)
+### [Cuff & Cage](https://github.com/Jangjinhyeok/Cuff-and-Cage)
 
-- 채굴 → 가공 → 판매 → 업그레이드로 이어지는 코어 루프를 5일(유효 약 30시간) 안에 완성한 아케이드 아이들 하이퍼캐주얼 프로토타입입니다. (1인 개발)
+- 경찰관이 광석을 캐고 수갑으로 가공해 죄수에게 판매하는 하이퍼캐주얼 아이들 게임 "Prison Life"를 5일(유효 약 30시간) 안에 클론한 프로토타입입니다. (1인 개발)
 - 9개 시스템을 개별 구현하면 일정을 넘긴다고 판단해 재사용 축이 되는 추상화 3종(`InteractionZone` / `StackContainer` / `GameSettingsSO`)을 첫날 확정하고 그 위에서 조립했으며, NavMeshAgent 기반 FSM NPC 3종과 오브젝트 풀링을 개발했습니다.
-- 설계 판단과 스코프 컷 사유는 ADR 문서로, 스펙 이탈은 deviation으로 남겼습니다.
-- **AI 코딩 도구(Claude Code)를 적극 활용해 개발한 프로젝트**입니다. 도구에 맡긴 영역과 사람이 판단한 지점을 [`docs/ai-usage.md`](https://github.com/Jangjinhyeok/Arcade-Idle-Prototype/blob/main/docs/ai-usage.md)에 정리했습니다.
+- 설계 판단과 스코프 컷 사유, 이후 뒤집힌 결정까지 설계 문서에 그대로 남겼습니다.
+- **AI 코딩 도구(Claude Code)를 적극 활용해 개발한 프로젝트**입니다. 도구에 맡긴 영역과 사람이 판단한 지점을 [`docs/ai-usage.md`](https://github.com/Jangjinhyeok/Cuff-and-Cage/blob/main/docs/ai-usage.md)에 정리했습니다.
 
 ### 그 외
 
