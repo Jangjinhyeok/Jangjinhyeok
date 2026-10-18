@@ -62,20 +62,20 @@ Unity 클라이언트 개발자로 커리어를 시작했습니다. 교육용 �
 - GAS 기반 농사·시간·수면 등 핵심 생활 콘텐츠와 스팀 멀티플레이 세션 시스템을 개발했습니다.
 - 클라이언트 소유가 아닌 액터에서 RPC가 전달되지 않는 문제를, 플레이어 캐릭터를 중개자로 두는 구조로 바꿔 해결했습니다.
 
-### [Rider](https://github.com/Jangjinhyeok/ProjectR)
+### [RIDER](https://github.com/Jangjinhyeok/ProjectR)
 
 - **멀티플레이** 캐주얼 레이싱 게임입니다.
 - RPC/Replication 기반 아이템 동기화와 DataTable 기반 아이템 시스템을 담당했습니다.
 
-### [Vertical](https://github.com/Jangjinhyeok/Project_V)
+### [VERTICAL](https://github.com/Jangjinhyeok/Project_V)
 
 - 거대 보스와의 전투를 구현한 3인칭 싱글 액션 게임입니다.
 - Behavior Tree 대신 State 패턴 기반 FSM을 택해 보스 AI와 게임 플로우를 개발했으며, AI Perception과 벡터 내적을 이용해 플레이어의 전후방을 판정하고 패턴을 분기했습니다.
 
-### [LostGPU](https://github.com/Jangjinhyeok/LostGPU)
+### [LOSTGPU](https://github.com/Jangjinhyeok/LostGPU)
 
 - 블루프린트와 머티리얼 시스템을 깊이 있게 활용한 쿼터뷰 액션 게임입니다.
-- 보스 일리아칸과 레벨 체인저를 담당했습니다.
+- 보스(일리아칸)와 기믹 시스템을 담당했습니다.
 
 ## 🚀 Unity Projects
 
