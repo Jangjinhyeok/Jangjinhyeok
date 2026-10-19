@@ -52,45 +52,63 @@ Unity 클라이언트 개발자로 커리어를 시작했습니다. 교육용 �
 
 `Unity 2021.3 LTS` `C#` `UniTask` `Addressables` `I2 Localization` `DOTween` `EditorWindow`
 
-## 🚀 Unreal Projects
+## 🚀 Projects
 
-> 상세 내용은 **Pinned** 저장소 또는 경력 기술서에서 확인하실 수 있습니다.
+> 이미지를 누르면 시연 영상(Duckov_Like는 저장소)으로 이동합니다. 실무 프로젝트는 [경력기술서](https://jangjinhyeok.github.io/)에 정리했습니다.
 
-### [이세계 휴식일지](https://github.com/Jangjinhyeok/ProjectISG-Client)
+<table>
+<tr>
+<td width="42%" valign="top">
+<a href="https://github.com/Jangjinhyeok/Duckov_Like"><img src="https://github.com/Jangjinhyeok/Duckov_Like/raw/main/docs/images/readme/customization.png" alt="Duckov_Like (탑다운 루팅·탈출)" width="100%"/></a>
+<p>📅 <b>기간</b> 2026.08 ~ 진행 중<br/>👥 <b>구성</b> 1인 (AI 활용)<br/>🔧 <b>기술</b> UE 5.7 · C++ · CommonUI · UMG MVVM</p>
+</td>
+<td width="58%" valign="top">
+<h3>Duckov_Like (탑다운 루팅·탈출)</h3>
+<p>인벤토리 UI 하나를 데이터 소유권부터 Tick, 입력 수명까지 파고든 개인 프로젝트입니다. 캐릭터 커스터마이징까지 확장하고 있습니다.</p>
+<ul><li><b>원자적 인벤토리 Model</b>: 이동·정렬·탈출 시 아이템 이전을 전체 검증한 뒤 한 번에 반영하고, 실패하면 상태가 바뀌지 않습니다.</li><li><b>이벤트 기반 UI</b>: 같은 컨테이너 안 이동 시 위젯 생성·제거 100/100 → 0/0, median 11.183 → 0.120 ms (Editor PIE 실측).</li><li><b>커스터마이징</b>: 6슬롯·16색 팔레트. 모든 파츠를 검증한 뒤 일괄 교체해, 실패 시 이전 외형을 유지합니다.</li><li><b>검증</b>: Automation 테스트 133개 통과(2026-10-19 기록).</li></ul>
+<p><a href="https://github.com/Jangjinhyeok/Duckov_Like"><b>📁 README</b></a> | <a href="https://github.com/Jangjinhyeok/Duckov_Like/tree/main/docs/architecture"><b>🔗 설계 기록(ADR)</b></a></p>
+</td>
+</tr>
+<tr>
+<td width="42%" valign="top">
+<a href="https://youtu.be/jWatg8hXAhE"><img src="https://img.youtube.com/vi/jWatg8hXAhE/maxresdefault.jpg" alt="이세계 휴식일지 (멀티플레이 힐링 농장 시뮬레이션)" width="100%"/></a>
+<p>📅 <b>기간</b> 2025.04 ~ 2025.06<br/>👥 <b>구성</b> 6인 (게임 클라이언트 3 · AI 3)<br/>🔧 <b>기술</b> UE5 · C++ · GAS · Steam OSS</p>
+</td>
+<td width="58%" valign="top">
+<h3>이세계 휴식일지 (멀티플레이 힐링 농장 시뮬레이션)</h3>
+<p>AI팀과 협업해 플레이 기록이 감성 일지로 남는 게임을 만들었습니다. 원티드 최종 프로젝트 우수상을 받았습니다.</p>
+<ul><li><b>생활 콘텐츠</b>: GAS 기반 농사(경작·파종·물주기·수확), Replicate 시간·낮밤, 수면·강제 취침을 개발했습니다.</li><li><b>거래·흐름</b>: 거래 시스템(Gold·물물거래, UI 디자인은 팀원), 튜토리얼·퀘스트 플로우·엔딩 분기를 맡았습니다.</li><li><b>멀티플레이·AI 연동</b>: Steam 세션 로비와 FastAPI 세션 ID 기반 성향 분석 UI를 연결했습니다.</li><li><b>트러블슈팅</b>: Owner가 없는 액터의 RPC가 전달되지 않는 문제를 플레이어 Server RPC 경유 구조로 해결했습니다.</li></ul>
+<p><a href="https://github.com/Jangjinhyeok/ProjectISG-Client"><b>📁 README</b></a> | <a href="https://youtu.be/jWatg8hXAhE"><b>🎥 시연 영상</b></a></p>
+</td>
+</tr>
+<tr>
+<td width="42%" valign="top">
+<a href="https://youtu.be/VYkRC-bX1qs"><img src="https://img.youtube.com/vi/VYkRC-bX1qs/maxresdefault.jpg" alt="Cuff &amp; Cage (하이퍼캐주얼 아이들)" width="100%"/></a>
+<p>📅 <b>기간</b> 2026.05<br/>👥 <b>구성</b> 1인<br/>🔧 <b>기술</b> Unity 2022.3 · C# · UniTask</p>
+</td>
+<td width="58%" valign="top">
+<h3>Cuff &amp; Cage (하이퍼캐주얼 아이들)</h3>
+<p>"Prison Life"의 코어 루프를 5일(유효 약 30시간) 안에 클론한 프로토타입입니다.</p>
+<ul><li><b>재사용 축 먼저</b>: 9개 시스템을 추상화 3종(<code>InteractionZone</code> / <code>StackContainer</code> / <code>GameSettingsSO</code>) 위에서 조립했습니다.</li><li><b>게임플레이</b>: NavMeshAgent 기반 FSM NPC 3종과 오브젝트 풀링을 개발했습니다.</li><li><b>AI 활용 기록</b>: 도구에 맡긴 영역과 사람이 판단한 지점을 <a href="https://github.com/Jangjinhyeok/Cuff-and-Cage/blob/main/docs/ai-usage.md">docs/ai-usage.md</a>에 정리했습니다.</li></ul>
+<p><a href="https://github.com/Jangjinhyeok/Cuff-and-Cage"><b>📁 README</b></a> | <a href="https://youtu.be/VYkRC-bX1qs"><b>🎥 시연 영상</b></a></p>
+</td>
+</tr>
+</table>
 
-- **AI 개발팀**과 협업해 제작한 **멀티플레이** 힐링 게임입니다. (최종 프로젝트 우수상 수상)
-- GAS 기반 농사·시간·수면 등 핵심 생활 콘텐츠와 스팀 멀티플레이 세션 시스템을 개발했습니다.
-- 클라이언트 소유가 아닌 액터에서 RPC가 전달되지 않는 문제를, 플레이어 캐릭터를 중개자로 두는 구조로 바꿔 해결했습니다.
+### 그 밖의 프로젝트
 
-### [RIDER](https://github.com/Jangjinhyeok/ProjectR)
+| 프로젝트 | 내용 |
+|---|---|
+| [**RIDER**](https://github.com/Jangjinhyeok/ProjectR) | UE5 C++ 멀티플레이 카트 레이싱(3인). 아이템 시스템과 드래프트 시스템, RPC/Replication 기반 아이템 동기화를 담당했습니다. |
+| [**VERTICAL**](https://github.com/Jangjinhyeok/Project_V) | UE5 C++ 3인칭 보스전(2인). State 패턴 기반 FSM으로 보스 AI를, AI Perception과 벡터 내적으로 전후방 판정과 패턴 분기를 구현했고, Level Sequence 연출과 게임 플로우를 맡았습니다. |
+| [**LOSTGPU**](https://github.com/Jangjinhyeok/LostGPU) | UE5 Blueprint 탑뷰 핵앤슬래시(3인). 보스(일리아칸)와 기믹 시스템, 대기방·레벨 체인저를 담당했습니다. |
+| [**Last Mechanic**](https://github.com/Jangjinhyeok/LastMechanic) | Unity 3인칭 액션 슈팅(1인). 인간·메카 상태 전환, 슈팅·스킬 시스템과 Behavior Tree 기반 보스 AI를 개발했습니다. |
+| [**Cursed Ruins**](https://github.com/Jangjinhyeok/CursedRuins) | Unity 3D 쿼터뷰 공포 탈출. NavMeshAgent 기반 귀신 AI와 랜덤 미니게임 생성을 개발했습니다. |
+| [**Infinite Dungeon**](https://github.com/Jangjinhyeok/InfiniteDungeon) | Unity 탑뷰 서바이벌. 레벨업 난이도 시스템과 랜덤 3택 강화 시스템을 구현했습니다. |
 
-- **멀티플레이** 캐주얼 레이싱 게임입니다.
-- RPC/Replication 기반 아이템 동기화와 DataTable 기반 아이템 시스템을 담당했습니다.
+## 🧰 Developer Tools
 
-### [VERTICAL](https://github.com/Jangjinhyeok/Project_V)
-
-- 거대 보스와의 전투를 구현한 3인칭 싱글 액션 게임입니다.
-- Behavior Tree 대신 State 패턴 기반 FSM을 택해 보스 AI와 게임 플로우를 개발했으며, AI Perception과 벡터 내적을 이용해 플레이어의 전후방을 판정하고 패턴을 분기했습니다.
-
-### [LOSTGPU](https://github.com/Jangjinhyeok/LostGPU)
-
-- 블루프린트와 머티리얼 시스템을 깊이 있게 활용한 쿼터뷰 액션 게임입니다.
-- 보스(일리아칸)와 기믹 시스템을 담당했습니다.
-
-## 🚀 Unity Projects
-
-### [Cuff & Cage](https://github.com/Jangjinhyeok/Cuff-and-Cage)
-
-- 경찰관이 광석을 캐고 수갑으로 가공해 죄수에게 판매하는 하이퍼캐주얼 아이들 게임 "Prison Life"를 5일(유효 약 30시간) 안에 클론한 프로토타입입니다. (1인 개발)
-- 9개 시스템을 개별 구현하면 일정을 넘긴다고 판단해 재사용 축이 되는 추상화 3종(`InteractionZone` / `StackContainer` / `GameSettingsSO`)을 첫날 확정하고 그 위에서 조립했으며, NavMeshAgent 기반 FSM NPC 3종과 오브젝트 풀링을 개발했습니다.
-- 설계 판단과 스코프 컷 사유, 이후 뒤집힌 결정까지 설계 문서에 그대로 남겼습니다.
-- **AI 코딩 도구(Claude Code)를 적극 활용해 개발한 프로젝트**입니다. 도구에 맡긴 영역과 사람이 판단한 지점을 [`docs/ai-usage.md`](https://github.com/Jangjinhyeok/Cuff-and-Cage/blob/main/docs/ai-usage.md)에 정리했습니다.
-
-### 그 외
-
-- [**Last Mechanic**](https://github.com/Jangjinhyeok/LastMechanic) — 인간과 메카 상태를 전환하며 싸우는 3인칭 액션 슈팅 게임 (1인 개발). 슈팅·스킬 시스템과 Behavior Tree 기반 보스 AI를 개발했습니다.
-- [**Cursed Ruins**](https://github.com/Jangjinhyeok/CursedRuins) — 유물 수집과 미니게임으로 폐허를 탈출하는 3D 쿼터뷰 공포 게임. NavMeshAgent 기반 귀신 AI와 랜덤 미니게임 생성을 개발했습니다.
-- [**Infinite Dungeon**](https://github.com/Jangjinhyeok/InfiniteDungeon) — 자동 공격과 스킬 강화로 생존하는 탑뷰 서바이벌 게임. 레벨업 난이도 시스템과 랜덤 3택 강화 시스템을 구현했습니다.
+- [**dinner-harness**](https://github.com/Jangjinhyeok/dinner-harness) — AI 코딩 에이전트를 실제 개발에 쓰면서 만든 개인 하네스입니다. 변경 위험도(LOW/HIGH)에 따라 검증·승인 강도를 나누고, hook으로 범위 이탈·시크릿 노출·위험 셸 명령을 사전에 차단합니다. 지금은 Claude 단일 세션(1-CLI)을 기본으로 쓰고, Claude 설계·Codex 구현의 2-CLI는 선택 경로로 유지합니다.
 
 ## 🛠 Skills
 
@@ -101,5 +119,6 @@ Unity 클라이언트 개발자로 커리어를 시작했습니다. 교육용 �
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zero9936@gmail.com)
 [![Portfolio PDF](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/17JJFBNAEJHLfHY7qsOgjl_QebOcX6-wx/view?usp=sharing)
+[![Career](https://img.shields.io/badge/%EA%B2%BD%EB%A0%A5%EA%B8%B0%EC%88%A0%EC%84%9C-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://jangjinhyeok.github.io/)
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=Jangjinhyeok&repo=Jangjinhyeok)
