@@ -54,19 +54,19 @@ Unity 클라이언트 개발자로 커리어를 시작했습니다. 교육용 �
 
 ## 🚀 Projects
 
-> 이미지를 누르면 시연 영상(Duckov_Like는 저장소)으로 이동합니다. 실무 프로젝트는 [경력기술서](https://jangjinhyeok.github.io/)에 정리했습니다.
+> 이미지를 누르면 시연 영상으로 이동합니다. 실무 프로젝트는 [경력기술서](https://jangjinhyeok.github.io/)에 정리했습니다.
 
 <table>
 <tr>
 <td width="42%" valign="top">
-<a href="https://github.com/Jangjinhyeok/Duckov_Like"><img src="https://github.com/Jangjinhyeok/Duckov_Like/raw/main/docs/images/readme/customization.png" alt="Duckov_Like (탑다운 루팅·탈출)" width="100%"/></a>
+<a href="https://youtu.be/vTejYMb2Zfg"><img src="https://github.com/Jangjinhyeok/Duckov_Like/raw/main/docs/images/readme/customization.png" alt="Duckov_Like (탑다운 루팅·탈출)" width="100%"/></a>
 <p>📅 <b>기간</b> 2026.08 ~ 진행 중<br/>👥 <b>구성</b> 1인 (AI 활용)<br/>🔧 <b>기술</b> UE 5.7 · C++ · CommonUI · UMG MVVM</p>
 </td>
 <td width="58%" valign="top">
 <h3>Duckov_Like (탑다운 루팅·탈출)</h3>
 <p>인벤토리 UI 하나를 데이터 소유권부터 Tick, 입력 수명까지 파고든 개인 프로젝트입니다. 캐릭터 커스터마이징까지 확장하고 있습니다.</p>
 <ul><li><b>원자적 인벤토리 Model</b>: 이동·정렬·탈출 시 아이템 이전을 전체 검증한 뒤 한 번에 반영하고, 실패하면 상태가 바뀌지 않습니다.</li><li><b>이벤트 기반 UI</b>: 같은 컨테이너 안 이동 시 위젯 생성·제거 100/100 → 0/0, median 11.183 → 0.120 ms (Editor PIE 실측).</li><li><b>커스터마이징</b>: 6슬롯·16색 팔레트. 모든 파츠를 검증한 뒤 일괄 교체해, 실패 시 이전 외형을 유지합니다.</li><li><b>검증</b>: Automation 테스트 133개 통과(2026-10-19 기록).</li></ul>
-<p><a href="https://github.com/Jangjinhyeok/Duckov_Like"><b>📁 README</b></a> | <a href="https://github.com/Jangjinhyeok/Duckov_Like/tree/main/docs/architecture"><b>🔗 설계 기록(ADR)</b></a></p>
+<p><a href="https://github.com/Jangjinhyeok/Duckov_Like"><b>📁 README</b></a> | <a href="https://github.com/Jangjinhyeok/Duckov_Like/tree/main/docs/architecture"><b>🔗 설계 기록(ADR)</b></a> | <a href="https://youtu.be/vTejYMb2Zfg"><b>🎥 시연 영상</b></a></p>
 </td>
 </tr>
 <tr>
